@@ -1,3 +1,126 @@
+/*
+ * -- Font-Face Declarations --
+ * ----------------------------
+ * Defines the custom fonts used in the website.
+ * Assumes font files are located in a 'fonts' directory.
+ */
+
+/* -- Princeton Monticello Display -- */
+@font-face {
+  font-family: 'PrincetonMonticelloDisplay';
+  src: url('../fonts/PrincetonMonticelloDisplay-Regular.otf') format('opentype');
+  font-weight: 400;
+  /* normal */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PrincetonMonticelloDisplay';
+  src: url('../fonts/PrincetonMonticelloDisplay-Italic.otf') format('opentype');
+  font-weight: 400;
+  /* normal */
+  font-style: italic;
+}
+
+/* -- Libre Franklin -- */
+@font-face {
+  font-family: 'LibreFranklin';
+  src: url('../fonts/LibreFranklin-Light.ttf') format('truetype');
+  font-weight: 300;
+  /* Light */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LibreFranklin';
+  src: url('../fonts/LibreFranklin-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  /* Light */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'LibreFranklin';
+  src: url('../fonts/LibreFranklin-Regular.ttf') format('truetype');
+  font-weight: 400;
+  /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LibreFranklin';
+  src: url('../fonts/LibreFranklin-Italic.ttf') format('truetype');
+  font-weight: 400;
+  /* Regular */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'LibreFranklin';
+  src: url('../fonts/LibreFranklin-Medium.ttf') format('truetype');
+  font-weight: 500;
+  /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LibreFranklin';
+  src: url('../fonts/LibreFranklin-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  /* Medium */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'LibreFranklin';
+  src: url('../fonts/LibreFranklin-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  /* SemiBold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LibreFranklin';
+  src: url('../fonts/LibreFranklin-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  /* SemiBold */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'LibreFranklin';
+  src: url('../fonts/LibreFranklin-Bold.ttf') format('truetype');
+  font-weight: 700;
+  /* Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LibreFranklin';
+  src: url('../fonts/LibreFranklin-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  /* Bold */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'LibreFranklin';
+  src: url('../fonts/LibreFranklin-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  /* ExtraBold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LibreFranklin';
+  src: url('../fonts/LibreFranklin-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  /* ExtraBold */
+  font-style: italic;
+}
+
+
+/* -- Titillium Web (Existing Font) -- */
 /* latin-ext */
 @font-face {
   font-family: 'Titillium Web';
@@ -106,139 +229,28 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAUi-qNiXg7eU0.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
 
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 700;
-  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_FQftx9897sxZ.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 700;
-  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_Gwftx9897g.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
+/* -- Main Styles -- */
 a {
-  color: #325BBA;
-  /*#1772d0;*/
+  color: #F58025;
   text-decoration: none;
 }
 
 a:focus,
 a:hover {
-  color: #FDB515;
-  /*#f7b733;*/
-  /*f09228;*/
+  color: #AF5D28;
   text-decoration: none;
 }
-
-/*  a {
-  color: #1772d0;
-  text-decoration:none;
-  }
-  a:focus, a:hover {
-  color: #f09228;
-  text-decoration:none;
-  }*/
-/*  body,td,th {
-    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: 400
-  }
-  heading {
-    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
-    font-size: 19px;
-    font-weight: 1000
-  }
-  strong {
-    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: 800
-  }
-  strongred {
-    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
-    color: 'red' ;
-    font-size: 16px
-  }
-  sectionheading {
-    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
-    font-size: 22px;
-    font-weight: 600
-  }*/
-
-
-/*a {
-color: #cc0000;
-text-decoration:none;
-}*/
 
 body,
 td,
 th,
 tr,
 p {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: 'LibreFranklin', Verdana, Helvetica, sans-serif;
   font-size: 16px;
+  font-weight: 400;
+  /* Sets default weight to Regular */
 }
 
 wall {
@@ -250,27 +262,33 @@ email {
 }
 
 strong {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: 'LibreFranklin', Verdana, Helvetica, sans-serif;
   font-size: 15px;
+  font-weight: 700;
+  /* Uses the Bold version of LibreFranklin */
 }
 
 heading {
   font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
   font-size: 24px;
-  color: #FDB515;
-  font-weight: 800
+  color: #F58025;
+  font-weight: 800;
 }
 
 papertitle {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: 'LibreFranklin', Verdana, Helvetica, sans-serif;
   font-size: 16px;
-  font-weight: 700
+  font-weight: 700;
+  /* Uses the Bold version of LibreFranklin */
 }
 
 name {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: 'PrincetonMonticelloDisplay', serif;
+  /* UPDATED FONT */
   font-size: 56px;
-  color: #325BBA;
+  color: #F58025;
+  font-weight: 400;
+  /* Uses the Regular version */
 }
 
 .one {
@@ -304,7 +322,7 @@ ul#news {
 }
 
 li {
-  padding-top: 5px
+  padding-top: 5px;
 }
 
 div#credits {
