@@ -43,16 +43,24 @@
                 <td width="70%" valign="middle" align="justify">
                   <wall>
                     <p> I am an Assistant Professor at
-                      Princeton University and the director of the <a href="https://prism.robo.princeton.edu">Princeton
-                        Robotic Intelligence and SysteMs group
-                        (PRISM)</a>. I am also a Research Scientist at Google DeepMind, where I lead <a
+                      Princeton University, where I lead the <a href="https://prism.robo.princeton.edu">Princeton
+                        Robotic Intelligence and SysteMs (PRISM) group</a>. I am affiliated with the <a
+                        href="https://ai.princeton.edu">AI Lab</a>, <a href="http://csml.princeton.edu">CSML</a>, and <a
+                        href="http://robo.princeton.edu">Princeton
+                        Robotics</a>.
+                      I also spend time at Google DeepMind, where I lead <a
                         href="https://deepmind.google/models/gemini-robotics/">Gemini Robotics</a>
                       Post-Training.
                     </p>
 
-                    <p> <b>Prospective students and postdocs:</b> <br>
-                      We are actively hiring! <a href="https://prism.robo.princeton.edu/contact">Please check out the
-                        information here.</a>
+                    <p>
+                      Previously, I completed my Ph.D. in EECS at UC Berkeley, where I was a Berkeley Fellow, and my
+                      B.Tech. in EE at IIT Bombay. I also spent time at Google Brain and Meta FAIR.
+                    </p>
+
+                    <!-- Affiliations? CSML, AI -->
+                    <p> <b>Prospective students and postdocs, </b>please see <a
+                        href="https://prism.robo.princeton.edu/contact">this page.</a>
                     </p>
 
                     <p align="center">
@@ -60,7 +68,8 @@
                       <a href="mailto:shahd@princeton.edu">email</a> / <a
                         href="https://scholar.google.com/citations?hl=en&user=d5y4iKAAAAAJ&view_op=list_works">scholar</a>
                       / <a href="https://twitter.com/shahdhruv_"> twitter </a> /
-                      <a href="https://www.linkedin.com/in/dhruvs-robots/"> linkedin </a>
+                      <a href="https://www.linkedin.com/in/dhruvs-robots/"> linkedin </a> /
+                      <a href="#" id="bioLink"> bio </a>
                     </p>
                   </wall>
                 </td>
@@ -72,6 +81,35 @@
           </table>
 
 
+          <div id="biography" style="display: none;">
+            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+              <tbody>
+                <tr>
+                  <td width="100%" valign="middle" align="justify">
+                    <wall>
+                      <h3>Biography</h3>
+                      <p>
+                        Dhruv Shah is an Assistant Professor of Robotics at Princeton University and a Research
+                        Scientist at
+                        Google DeepMind. He obtained his PhD in EECS at UC Berkeley, where he was advised by Sergey
+                        Levine. His research spans the fields of machine learning and robotics, with the goal of
+                        building
+                        autonomous robots that can combine large-scale learning with real-world deployment. Dhruv is a
+                        Microsoft Future Leader in Robotics & AI, Berkeley Fellow, and his research has been nominated
+                        for
+                        and won several Best Paper Awards at premier robotics conferences like RSS and ICRA. His work
+                        has
+                        also been featured in several media outlets, including WIRED, MIT Technology Review, TechCrunch,
+                        and several international venues.
+                      </p>
+                    </wall>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+
           <hr width=80%>
           <div id="credits">
             <br>
@@ -81,6 +119,18 @@
         </td>
       </tr>
   </table>
+
+  <script>
+    document.getElementById('bioLink').addEventListener('click', function (e) {
+      e.preventDefault();
+      var bioSection = document.getElementById('biography');
+      if (bioSection.style.display === 'none' || bioSection.style.display === '') {
+        bioSection.style.display = 'block';
+      } else {
+        bioSection.style.display = 'none';
+      }
+    });
+  </script>
 </body>
 
 </html>
